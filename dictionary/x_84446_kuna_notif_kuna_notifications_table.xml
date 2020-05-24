@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Kuna Notifications Table" max_length="40" name="x_84446_kuna_notif_kuna_notifications_table" type="collection">
+    <element label="KuNotifications" max_length="40" name="x_84446_kuna_notif_kuna_notifications_table" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Outloud" max_length="40" name="outloud" type="boolean"/>
+        <element choice="3" default="ready" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="processed" value="processed"/>
+                <element inactive_on_update="false" label="ready" value="ready"/>
+            </choice>
+        </element>
+        <element label="Todo" max_length="32" name="todo" reference="x_84446_todo_do" type="reference"/>
+        <index name="index">
+            <element name="todo"/>
+        </index>
     </element>
 </database>
