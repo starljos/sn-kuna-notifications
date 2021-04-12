@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2021-03-06 09:58:24</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2021-02-28 21:59:19</sys_created_on>
+        <sys_id>c0e13fa62fea2410c809bea62799b6a8</sys_id>
+        <sys_mod_count>136</sys_mod_count>
+        <sys_name>fWSvNlok1L8:APA91bHBtnGXdM0c34diWWPAnu1hUt30z7grmlB_LLReMk9K_zS4F2RB05JDVN09XT739gmdRsECPSPQ429Y0mzmWX2vZNAl92TuQZ30cHqm7B5RGwGJsR1WNQSUpf1SapV32yz8X8lq</sys_name>
+        <sys_package display_value="Kuna Notifications" source="x_84446_kuna_notif">a3660c94dbcd901006fc7b6039961997</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Kuna Notifications">a3660c94dbcd901006fc7b6039961997</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_c0e13fa62fea2410c809bea62799b6a8</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2021-03-06 09:58:24</sys_updated_on>
+        <sys_user_id display_value="Marek Polasik">63984c83db92330006fc7b6039961991</sys_user_id>
+        <token>fWSvNlok1L8:APA91bHBtnGXdM0c34diWWPAnu1hUt30z7grmlB_LLReMk9K_zS4F2RB05JDVN09XT739gmdRsECPSPQ429Y0mzmWX2vZNAl92TuQZ30cHqm7B5RGwGJsR1WNQSUpf1SapV32yz8X8lq</token>
+    </sys_push_notif_app_install>
+</record_update>
