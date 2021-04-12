@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="KuNotifications" max_length="40" name="x_84446_kuna_notif_kuna_notifications_table" type="collection">
+    <element label="KuNotifications" max_length="40" name="x_84446_kuna_notif_kuna_notifications_table" sizeclass="25" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Outloud" max_length="40" name="outloud" type="boolean"/>
+        <element label="Remind until todo closed" max_length="40" name="remind_until_todo_closed" type="boolean"/>
         <element choice="3" default="ready" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="processed" value="processed"/>

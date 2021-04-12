@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="remind_until_todo_closed" label="Remind until todo closed" language="en" table="x_84446_kuna_notif_kuna_notifications_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>remind_until_todo_closed</element>
+            <help/>
+            <hint/>
+            <label>Remind until todo closed</label>
+            <language>en</language>
+            <name>x_84446_kuna_notif_kuna_notifications_table</name>
+            <plural>Remind until todo closed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>marek.polasik</sys_created_by>
+            <sys_created_on>2020-05-24 16:57:03</sys_created_on>
+            <sys_id>9a8fa86cdbc5101006fc7b603996196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Remind until todo closed</sys_name>
+            <sys_package display_value="Kuna Notifications" source="x_84446_kuna_notif">a3660c94dbcd901006fc7b6039961997</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Kuna Notifications">a3660c94dbcd901006fc7b6039961997</sys_scope>
+            <sys_update_name>sys_documentation_x_84446_kuna_notif_kuna_notifications_table_remind_until_todo_closed_en</sys_update_name>
+            <sys_updated_by>marek.polasik</sys_updated_by>
+            <sys_updated_on>2020-05-24 16:57:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_84446_kuna_notif.KuNotifUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>KuNotifUtils</name>
+        <script><![CDATA[var KuNotifUtils = Class.create();
+KuNotifUtils.prototype = {
+	initialize: function() {
+	},
+
+	setProcessed: function(sys_id) {
+
+		var gr = new GlideRecord('x_84446_kuna_notif_kuna_notifications_table');
+		if (gr.get(sys_id)){
+			gr.state = 'processed';
+			gr.update();
+			return true;
+		} else {
+			return false;
+		}
+	},
+
+	createNotif: function(todoSysId) {
+		var gr = new GlideRecord('x_84446_kuna_notif_kuna_notifications_table');
+		gr.initialize();
+		gr.state = 'ready';
+		gr.todo = todoSysId;
+		gr.outloud = true;
+		return gr.insert();
+
+	},
+
+	createNotifRepeat: function(todoSysId) {
+		var gr = new GlideRecord('x_84446_kuna_notif_kuna_notifications_table');
+		gr.initialize();
+		gr.state = 'ready';
+		gr.todo = todoSysId;
+		gr.outloud = true;
+		gr.remind_until_todo_closed = true;
+		return gr.insert();
+
+	},
+
+	type: 'KuNotifUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-05-24 15:57:07</sys_created_on>
+        <sys_id>80712c68db85101006fc7b60399619dd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>KuNotifUtils</sys_name>
+        <sys_package display_value="Kuna Notifications" source="x_84446_kuna_notif">a3660c94dbcd901006fc7b6039961997</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Kuna Notifications">a3660c94dbcd901006fc7b6039961997</sys_scope>
+        <sys_update_name>sys_script_include_80712c68db85101006fc7b60399619dd</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-05-24 17:00:28</sys_updated_on>
+    </sys_script_include>
+</record_update>
